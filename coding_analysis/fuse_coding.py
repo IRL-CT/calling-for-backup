@@ -23,11 +23,14 @@ def extract_participant_and_video(filename):
     
     # Split by underscore and get the last part as participant_id
     parts = base_name.split('_')
-    participant_id = parts[-1]  # Last part (e.g., P10)
-    
-    # Everything except the last part is video_name
-    video_name = '_'.join(parts[:-1])  # All parts except last (e.g., 2025-02-13_10-28-33_P10)
-    
+    if parts[-1].startswith('P'):
+        participant_id = parts[-1]  # Last part (e.g., P10)
+        video_name = '_'.join(parts[:-1])  # All parts except last (e.g., 2025-02-13_10-28-33_P10)
+
+    else:
+        participant_id = parts[-2] 
+        video_name = '_'.join(parts[:-2])  # All parts except last two
+
     return participant_id, video_name
 
 def process_codes_to_dataframe():
@@ -47,7 +50,7 @@ def process_codes_to_dataframe():
     all_rows = []
     
     # Process all txt files in the codes folder
-    codes_folder = '../../dados'#'codes'
+    codes_folder = 'codes'#'../../dados'#'codes'
     txt_files = glob.glob(os.path.join(codes_folder, '*.txt'))
     
     print(f"Found {len(txt_files)} txt files to process...")
@@ -66,14 +69,17 @@ def process_codes_to_dataframe():
             line = line.strip()
             if not line:
                 continue
-            
-            # Split by tab - expecting 3 columns: code_group, duration, subcode
+
+            # Split by tab - expecting 5 columns: code_group, start, end, duration, subcode
             parts = line.split('\t')
-            
-            if len(parts) >= 3:
+            print(f"Line parts ({len(parts)}): {parts}")
+
+            if len(parts) >= 5:
                 code_group = parts[0]
-                duration_str = parts[1]
-                subcode = parts[2] if len(parts) > 2 else ''
+                start = parts[2]  
+                end = parts[3]
+                duration_str = parts[4]
+                subcode = parts[5] if len(parts) > 5 else ''
                 
                 # Convert duration to seconds
                 if code_group == 'video' and subcode in video_durations:
@@ -87,8 +93,8 @@ def process_codes_to_dataframe():
                 row = {
                     'participant_id': participant_id,
                     'video_name': video_name,
-                    'start': "NA",
-                    'end': "NA",
+                    'start': start,
+                    'end': end,
                     'duration': duration_seconds,
                     'code_group': code_group,
                     'subcode': subcode
@@ -102,9 +108,9 @@ def process_codes_to_dataframe():
     # Create DataFrame
     df = pd.DataFrame(all_rows)
     
-    # Sort by participant_id
-    df = df.sort_values('participant_id').reset_index(drop=True)
-    
+    # Sort by participant_id and then by start time
+    df = df.sort_values(['participant_id', 'start']).reset_index(drop=True)
+
     print(f"\nDataFrame created with {len(df)} rows")
     print(f"Columns: {list(df.columns)}")
     print(f"Unique participants: {df['participant_id'].nunique()}")

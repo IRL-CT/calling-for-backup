@@ -1,0 +1,41 @@
+Pattern,Type,Count,Percentage
+disengagement -> disengagement -> disengagement,Category (Error-by-Error),15,30.0%
+disengagement -> disengagement -> emotion,Category (Error-by-Error),4,8.0%
+disengagement -> emotion -> disengagement,Category (Error-by-Error),3,6.0%
+disengagement -> emotion -> emotion,Category (Error-by-Error),3,6.0%
+verbal tone or cadence -> disengagement -> emotion,Category (Error-by-Error),2,4.0%
+disengagement -> disengagement -> no_reaction,Category (Error-by-Error),2,4.0%
+emotion -> no_reaction -> no_reaction,Category (Error-by-Error),2,4.0%
+verbal tone or cadence -> emotion -> emotion,Category (Error-by-Error),1,2.0%
+emotion -> emotion -> emotion,Category (Error-by-Error),1,2.0%
+verbal tone or cadence -> disengagement -> disengagement,Category (Error-by-Error),1,2.0%
+looks at robot -> looks at robot -> looks at robot,Subcode (Error-by-Error),5,10.0%
+looks at robot -> confusion -> looks at PC,Subcode (Error-by-Error),2,4.0%
+interrogative tone -> frustration -> frustration,Subcode (Error-by-Error),1,2.0%
+interrogative tone -> looks at PC -> frustration,Subcode (Error-by-Error),1,2.0%
+changes position -> quitting -> confusion,Subcode (Error-by-Error),1,2.0%
+confusion -> frustration -> frustration,Subcode (Error-by-Error),1,2.0%
+looks at PC -> looks for researcher -> looks for researcher,Subcode (Error-by-Error),1,2.0%
+interrogative tone -> looks for researcher -> looks at PC,Subcode (Error-by-Error),1,2.0%
+no_reaction -> no prompt -> changes position,Subcode (Error-by-Error),1,2.0%
+stands up -> changes position -> looks at PC,Subcode (Error-by-Error),1,2.0%
+disengagement → verbal tone or cadence → reprompting strategies → disengagement → verbal tone or cadence → reprompting strategies → disengagement → verbal tone or cadence → reprompting strategies,Complete Category Sequence,2,4.0%
+verbal tone or cadence → reprompting strategies → emotion → did not engage → emotion → disengagement → reprompting strategies → emotion → verbal tone or cadence → reprompting strategies,Complete Category Sequence,1,2.0%
+verbal tone or cadence → reprompting strategies → disengagement → did not engage → emotion → disengagement → emotion → reprompting strategies → reprompting strategies,Complete Category Sequence,1,2.0%
+disengagement → reprompting strategies → disengagement → did not engage → disengagement → reprompting strategies → emotion → did not engage → reprompting strategies,Complete Category Sequence,1,2.0%
+emotion → did not engage → emotion → reprompting strategies → disengagement → emotion → did not engage,Complete Category Sequence,1,2.0%
+disengagement → did not engage → emotion → disengagement → emotion → disengagement → did not engage → disengagement → did not engage → emotion → disengagement,Complete Category Sequence,1,2.0%
+verbal tone or cadence → reprompting strategies → disengagement → reprompting strategies → disengagement → disengagement → did not engage → emotion → disengagement → reprompting strategies,Complete Category Sequence,1,2.0%
+disengagement → disengagement → emotion → reprompting strategies → emotion → reprompting strategies → disengagement → verbal tone or cadence → reprompting strategies,Complete Category Sequence,1,2.0%
+did not engage → disengagement → emotion → disengagement → disengagement → emotion,Complete Category Sequence,1,2.0%
+disengagement → verbal tone or cadence → reprompting strategies → verbal tone or cadence → disengagement → reprompting strategies → disengagement → disengagement → reprompting strategies,Complete Category Sequence,1,2.0%
+interrogative tone → simpler prompt → frustration → no prompt → frustration → quitting → simpler prompt → frustration → slower speech → more specific/longer prompt,Complete Subcode Sequence,1,2.0%
+interrogative tone → more specific/longer prompt → looks at PC → no prompt → confusion → looks at PC → frustration → more specific/longer prompt → 'please',Complete Subcode Sequence,1,2.0%
+changes position → repeats prompt → quitting → no prompt → leaves room → repeats prompt → confusion → no prompt → repeats prompt,Complete Subcode Sequence,1,2.0%
+confusion → no prompt → frustration → more specific/longer prompt → looks at robot → frustration → no prompt,Complete Subcode Sequence,1,2.0%
+looks at PC → no prompt → confusion → looks at robot → amusement/humor → looks for researcher → no prompt → looks for researcher → no prompt → frustration → looks for researcher,Complete Subcode Sequence,1,2.0%
+interrogative tone → repeats prompt → looks for researcher → repeats prompt → looks at PC → looks for researcher → no prompt → confusion → looks for researcher → repeats prompt,Complete Subcode Sequence,1,2.0%
+looks at robot → looks at PC → confusion → repeats prompt → confusion → more specific/longer prompt → looks at PC → slower speech → repeats prompt,Complete Subcode Sequence,1,2.0%
+no prompt → looks for researcher → confusion → looks at PC → changes position → frustration,Complete Subcode Sequence,1,2.0%
+stands up → slower speech → simpler prompt → moves closer to robot → changes position → simpler prompt → looks at PC → looks at robot → simpler prompt,Complete Subcode Sequence,1,2.0%
+looks at PC → no prompt → confusion → looks for researcher → no prompt → looks at PC → filler words → repeats prompt → looks at PC → no prompt → looks at robot → repeats prompt,Complete Subcode Sequence,1,2.0%

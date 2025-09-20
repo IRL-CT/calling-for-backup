@@ -1,0 +1,18 @@
+participant_id,pattern_summary,detailed_pattern,pattern_type,first_behavior,last_behavior,total_autonomy,total_backup
+P12,backup,backup(leaves room),mixed throughout,backup,backup,0,1
+P16,backup → backup → backup,backup(looks for researcher) → backup(looks for researcher) → backup(looks for researcher),mixed throughout,backup,backup,0,3
+P20,backup → autonomy,backup(stands up) → autonomy(moves closer to robot),backup → autonomy,backup,autonomy,1,1
+P21,backup,backup(looks for researcher),mixed throughout,backup,backup,0,1
+P22,backup → backup → backup → backup,backup(looks for researcher) → backup(looks for researcher) → backup(looks for researcher) → backup(looks for researcher),mixed throughout,backup,backup,0,4
+P24,backup,backup(leaves room),mixed throughout,backup,backup,0,1
+P28,backup,backup(leaves room),mixed throughout,backup,backup,0,1
+P35,backup → backup,backup(looks for researcher) → backup(leaves room),mixed throughout,backup,backup,0,2
+P36,backup,backup(looks for researcher),mixed throughout,backup,backup,0,1
+P38,backup,backup(looks for researcher),mixed throughout,backup,backup,0,1
+P41,backup → backup,backup(looks for researcher) → backup(looks for researcher),mixed throughout,backup,backup,0,2
+P43,autonomy → backup,autonomy(moves closer to robot) → backup(looks for researcher),autonomy → backup,autonomy,backup,1,1
+P46,backup,backup(looks for researcher),mixed throughout,backup,backup,0,1
+P50,backup,backup(looks for researcher),mixed throughout,backup,backup,0,1
+P55,backup,backup(looks for researcher),mixed throughout,backup,backup,0,1
+P58,backup,backup(looks for researcher),mixed throughout,backup,backup,0,1
+P7,backup → backup → backup,backup(looks for researcher) → backup(looks for researcher) → backup(looks for researcher),mixed throughout,backup,backup,0,3

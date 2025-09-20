@@ -1,0 +1,28 @@
+Error,Rank,Type,Reaction,Count,Percentage
+1,1,Subcode,repeats prompt,24,16.0%
+1,2,Subcode,looks at robot,22,14.7%
+1,3,Subcode,slower speech,13,8.7%
+1,1,Category,reprompting strategies,44,29.3%
+1,2,Category,disengagement,44,29.3%
+1,3,Category,verbal tone or cadence,39,26.0%
+1,1,Engagement,other,104,69.3%
+1,2,Engagement,autonomy,29,19.3%
+1,3,Engagement,calls for backup,9,6.0%
+2,1,Subcode,no prompt,22,17.3%
+2,2,Subcode,repeats prompt,13,10.2%
+2,3,Subcode,looks at robot,13,10.2%
+2,1,Category,disengagement,45,35.4%
+2,2,Category,reprompting strategies,26,20.5%
+2,3,Category,did not engage,22,17.3%
+2,1,Engagement,other,75,59.1%
+2,2,Engagement,did not engage,22,17.3%
+2,3,Engagement,autonomy,16,12.6%
+3,1,Subcode,frustration,15,10.1%
+3,2,Subcode,no prompt,14,9.5%
+3,3,Subcode,repeats prompt,14,9.5%
+3,1,Category,disengagement,38,25.7%
+3,2,Category,reprompting strategies,37,25.0%
+3,3,Category,verbal tone or cadence,31,20.9%
+3,1,Engagement,other,104,70.3%
+3,2,Engagement,autonomy,19,12.8%
+3,3,Engagement,did not engage,14,9.5%

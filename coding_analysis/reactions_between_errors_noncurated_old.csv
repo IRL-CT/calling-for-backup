@@ -1,9 +1,10 @@
 participant_id,video_name,start,end,duration,code_group,subcode,error,subcode_readable
-P10,2025-02-13_10-28-33,00:07:10.620,00:07:12.760,2.14,childreaction2failure,pf,1,'please'
 P10,2025-02-13_10-28-33,00:07:14.270,00:07:17.360,3.09,childtone,interrogative,1,interrogative tone
 P10,2025-02-13_10-28-33,00:07:14.270,00:07:17.360,3.09,childprompt,simplerprompt,1,simpler prompt
 P10,2025-02-13_10-28-33,00:07:19.840,00:07:21.720,1.88,childreaction2failure,frustration,2,frustration
 P10,2025-02-13_10-28-33,00:07:29.405,00:07:31.175,1.77,childprompt,noprompt,2,no prompt
+P10,2025-02-13_10-28-33,00:07:32.505,00:07:35.545,3.04,childreaction2failure,frustration,3,frustration
+P10,2025-02-13_10-28-33,00:07:35.770,00:07:37.270,1.5,childreaction2failure,quitting,3,quitting
 P10,2025-02-13_10-28-33,00:07:35.770,00:07:37.270,1.5,childprompt,simplerprompt,3,simpler prompt
 P10,2025-02-13_10-28-33,00:07:38.295,00:07:42.605,4.31,childreaction2failure,frustration,3,frustration
 P10,2025-02-13_10-28-33,00:07:38.295,00:07:42.605,4.31,childtone,slower,3,slower speech
@@ -13,14 +14,15 @@ P11,2025-02-13_10-39-11,00:06:25.505,00:06:27.245,1.74,childprompt,longerprompt,
 P11,2025-02-13_10-39-11,00:06:31.710,00:06:37.070,5.36,childreaction2failure,lookingatPC,2,looks at PC
 P11,2025-02-13_10-39-11,00:06:31.710,00:06:37.070,5.36,childprompt,noprompt,2,no prompt
 P11,2025-02-13_10-39-11,00:06:37.235,00:06:46.420,9.185,childreaction2failure,confusion,2,confusion
-P11,2025-02-13_10-39-11,00:06:54.690,00:06:57.030,1.872,childreaction2failure,frustration,3,frustration
+P11,2025-02-13_10-39-11,00:06:46.420,00:06:46.450,0.03,childreaction2failure,lookingatPC,2,looks at PC
+P11,2025-02-13_10-39-11,00:06:54.690,00:06:56.562,1.872,childreaction2failure,frustration,3,frustration
 P11,2025-02-13_10-39-11,00:06:54.690,00:06:57.030,2.34,childprompt,longerprompt,3,more specific/longer prompt
-P11,2025-02-13_10-39-11,00:06:54.690,00:06:57.092,0.53,childreaction2failure,pf,3,'please'
+P11,2025-02-13_10-39-11,00:06:56.562,00:06:57.092,0.53,childreaction2failure,pf,3,'please'
 P12,2025-02-13_10-50-01,00:05:46.930,00:05:47.730,0.8,childreaction2failure,moves,1,changes position
 P12,2025-02-13_10-50-01,00:05:46.930,00:05:47.730,0.8,childprompt,repeatprompt,1,repeats prompt
 P12,2025-02-13_10-50-01,00:05:51.070,00:05:52.200,1.13,childreaction2failure,quitting,2,quitting
 P12,2025-02-13_10-50-01,00:05:51.070,00:05:52.200,1.13,childprompt,noprompt,2,no prompt
-P12,2025-02-13_10-50-01,00:05:51.070,00:05:52.200,0.75,childreaction2failure,leaveroom,2,leaves room
+P12,2025-02-13_10-50-01,00:05:52.230,00:05:52.980,0.75,childreaction2failure,leaveroom,2,leaves room
 P12,2025-02-13_10-50-01,00:05:59.010,00:06:00.160,1.15,childprompt,repeatprompt,2,repeats prompt
 P12,2025-02-13_10-50-01,00:06:03.010,00:06:05.140,2.13,childreaction2failure,confusion,3,confusion
 P12,2025-02-13_10-50-01,00:06:03.010,00:06:05.140,2.13,childprompt,noprompt,3,no prompt
@@ -29,18 +31,20 @@ P13,2025-02-13_10-58-41,00:08:58.815,00:09:03.405,4.59,childreaction2failure,con
 P13,2025-02-13_10-58-41,00:08:58.815,00:09:03.405,4.59,childprompt,noprompt,1,no prompt
 P13,2025-02-13_10-58-41,00:09:14.015,00:09:15.275,1.26,childreaction2failure,frustration,2,frustration
 P13,2025-02-13_10-58-41,00:09:14.015,00:09:15.275,1.26,childprompt,longerprompt,2,more specific/longer prompt
+P13,2025-02-13_10-58-41,00:09:15.285,00:09:17.055,1.77,childreaction2failure,lookingrobot,2,looks at robot
 P13,2025-02-13_10-58-41,00:09:25.550,00:09:28.040,2.49,childreaction2failure,frustration,3,frustration
 P13,2025-02-13_10-58-41,00:09:25.550,00:09:28.040,2.49,childprompt,noprompt,3,no prompt
 P14,2025-02-13_11-11-15,00:08:02.190,00:08:05.310,3.12,childreaction2failure,lookingatPC,1,looks at PC
 P14,2025-02-13_11-11-15,00:08:05.235,00:08:09.635,4.4,childprompt,noprompt,1,no prompt
 P14,2025-02-13_11-11-15,00:08:05.310,00:08:09.635,4.325,childreaction2failure,confusion,1,confusion
-P14,2025-02-13_11-11-15,00:08:10.705,00:08:16.035,3.37,childreaction2failure,lookingrobot,1,looks at robot
-P14,2025-02-13_11-11-15,00:08:10.705,00:08:16.035,1.89,childreaction2failure,humor,1,amusement/humor
+P14,2025-02-13_11-11-15,00:08:10.705,00:08:14.075,3.37,childreaction2failure,lookingrobot,1,looks at robot
+P14,2025-02-13_11-11-15,00:08:14.145,00:08:16.035,1.89,childreaction2failure,humor,1,amusement/humor
 P14,2025-02-13_11-11-15,00:08:17.915,00:08:23.565,5.65,childreaction2failure,try2look2researcher,2,looks for researcher
 P14,2025-02-13_11-11-15,00:08:17.915,00:08:23.565,5.65,childprompt,noprompt,2,no prompt
 P14,2025-02-13_11-11-15,00:08:29.200,00:08:33.205,4.005,childreaction2failure,try2look2researcher,3,looks for researcher
 P14,2025-02-13_11-11-15,00:08:29.200,00:08:37.230,8.03,childprompt,noprompt,3,no prompt
 P14,2025-02-13_11-11-15,00:08:33.205,00:08:35.455,2.25,childreaction2failure,frustration,3,frustration
+P14,2025-02-13_11-11-15,00:08:35.485,00:08:40.455,4.97,childreaction2failure,try2look2researcher,3,looks for researcher
 P16,2025-02-13_11-33-04,00:09:21.350,00:09:22.830,1.48,childtone,interrogative,1,interrogative tone
 P16,2025-02-13_11-33-04,00:09:21.350,00:09:22.830,1.48,childprompt,repeatprompt,1,repeats prompt
 P16,2025-02-13_11-33-04,00:09:26.470,00:09:29.920,3.45,childreaction2failure,try2look2researcher,2,looks for researcher
@@ -92,12 +96,14 @@ P22,2025-02-14_09-29-40,00:06:31.650,00:06:33.210,1.56,childtone,demanding,1,dem
 P22,2025-02-14_09-29-40,00:06:31.650,00:06:33.210,1.56,childprompt,repeatprompt,1,repeats prompt
 P22,2025-02-14_09-29-40,00:06:33.620,00:06:34.720,1.1,childreaction2failure,confusion,1,confusion
 P22,2025-02-14_09-29-40,00:06:34.775,00:06:36.805,2.03,childreaction2failure,try2look2researcher,1,looks for researcher
+P22,2025-02-14_09-29-40,00:06:36.895,00:06:38.085,1.19,childreaction2failure,try2look2researcher,1,looks for researcher
 P22,2025-02-14_09-29-40,00:06:36.895,00:06:38.085,1.19,childtone,interrogative,1,interrogative tone
 P22,2025-02-14_09-29-40,00:06:36.895,00:06:38.085,1.19,childprompt,prompt2researcher,1,looks for researcher
 P22,2025-02-14_09-29-40,00:06:41.020,00:06:44.650,3.63,childreaction2failure,confusion,2,confusion
 P22,2025-02-14_09-29-40,00:06:41.035,00:06:45.745,4.71,childprompt,noprompt,2,no prompt
 P22,2025-02-14_09-29-40,00:06:44.670,00:06:45.630,0.96,childreaction2failure,look2robot,2,looks at robot
 P22,2025-02-14_09-29-40,00:06:50.355,00:06:50.370,0.015,childreaction2failure,quitting,2,quitting
+P22,2025-02-14_09-29-40,00:06:50.370,00:06:56.450,6.08,childreaction2failure,quitting,2,quitting
 P22,2025-02-14_09-29-40,00:06:56.855,00:07:01.445,4.59,childreaction2failure,try2look2researcher,2,looks for researcher
 P22,2025-02-14_09-29-40,00:07:01.615,00:07:04.385,2.77,childreaction2failure,lookingatPC,2,looks at PC
 P22,2025-02-14_09-29-40,00:07:19.535,00:07:23.355,3.82,childreaction2failure,lookingatPC,3,looks at PC
@@ -141,6 +147,7 @@ P26,2025-02-14_10-07-23,00:05:24.155,00:05:27.315,3.16,childtone,demanding,3,dem
 P26,2025-02-14_10-07-23,00:05:24.155,00:05:27.315,3.16,childprompt,repeatprompt,3,repeats prompt
 P27,2025-02-14_10-17-58,00:06:47.875,00:06:49.025,1.15,childreaction2failure,movecloser2robot,1,moves closer to robot
 P27,2025-02-14_10-17-58,00:06:47.875,00:06:49.025,1.15,childtone,slower,1,slower speech
+P27,2025-02-14_10-17-58,00:06:47.875,00:06:49.025,1.15,childprompt,repeatprompt,1,repeats prompt
 P28,2025-02-14_10-27-26,00:07:19.790,00:07:20.650,0.86,childreaction2failure,look2robot,1,looks at robot
 P28,2025-02-14_10-27-26,00:07:19.790,00:07:20.650,0.86,childprompt,repeatprompt,1,repeats prompt
 P28,2025-02-14_10-27-26,00:07:23.770,00:07:30.350,6.58,childreaction2failure,leaveroom,2,leaves room
@@ -158,6 +165,7 @@ P29,2025-02-14_10-37-15,00:07:06.350,00:07:09.630,3.28,childprompt,longerprompt,
 P3,2025-02-11_12-12-28,00:09:32.115,00:09:32.795,0.68,childreaction2failure,humor,1,amusement/humor
 P3,2025-02-11_12-12-28,00:09:32.115,00:09:32.925,0.81,childprompt,repeatprompt,1,repeats prompt
 P3,2025-02-11_12-12-28,00:09:32.795,00:09:33.221,0.426,childreaction2failure,look2robot,1,looks at robot
+P3,2025-02-11_12-12-28,00:09:38.500,00:09:38.828,0.328,childreaction2failure,look2robot,2,looks at robot
 P3,2025-02-11_12-12-28,00:09:38.500,00:09:39.000,0.5,childtone,demanding,2,demanding tone
 P3,2025-02-11_12-12-28,00:09:38.500,00:09:39.000,0.5,childprompt,repeatprompt,2,repeats prompt
 P3,2025-02-11_12-12-28,00:09:38.828,00:09:39.233,0.405,childreaction2failure,humor,2,amusement/humor
@@ -179,7 +187,7 @@ P32,2025-02-14_11-21-57,00:06:51.380,00:06:53.010,1.63,childprompt,repeatprompt,
 P32,2025-02-14_11-21-57,00:06:55.625,00:06:58.345,2.72,childreaction2failure,movecloser2robot,2,moves closer to robot
 P32,2025-02-14_11-21-57,00:06:55.625,00:06:58.345,2.72,childtone,slower,2,slower speech
 P32,2025-02-14_11-21-57,00:06:55.625,00:06:58.345,2.72,childprompt,repeatprompt,2,repeats prompt
-P32,2025-02-14_11-21-57,00:07:00.500,00:07:01.500,1,childreaction2failure,frustration,3,frustration
+P32,2025-02-14_11-21-57,00:07:00.500,00:07:01.500,1.0,childreaction2failure,frustration,3,frustration
 P32,2025-02-14_11-21-57,00:07:01.515,00:07:03.555,2.04,childreaction2failure,movecloser2robot,3,moves closer to robot
 P32,2025-02-14_11-21-57,00:07:01.515,00:07:03.555,2.04,childtone,slower,3,slower speech
 P32,2025-02-14_11-21-57,00:07:01.515,00:07:03.555,2.04,childprompt,repeatprompt,3,repeats prompt
@@ -206,6 +214,7 @@ P36,2025-05-15_14-16-21,00:10:40.230,00:10:43.360,3.13,childprompt,repeatprompt,
 P36,2025-05-15_14-16-21,00:10:46.110,00:10:51.730,5.62,childreaction2failure,lookingatPC,2,looks at PC
 P36,2025-05-15_14-16-21,00:10:46.110,00:10:51.730,5.62,childprompt,noprompt,2,no prompt
 P36,2025-05-15_14-16-21,00:10:51.755,00:10:58.625,6.87,childreaction2failure,try2look2researcher,2,looks for researcher
+P36,2025-05-15_14-16-21,00:10:59.220,00:11:01.390,2.17,childreaction2failure,lookingatPC,2,looks at PC
 P36,2025-05-15_14-16-21,00:11:01.410,00:11:06.890,5.48,childreaction2failure,confusion,2,confusion
 P36,2025-05-15_14-16-21,00:11:07.959,00:11:13.189,5.23,childreaction2failure,confusion,3,confusion
 P36,2025-05-15_14-16-21,00:11:16.470,00:11:20.150,3.68,childreaction2failure,look2robot,3,looks at robot
@@ -214,23 +223,26 @@ P36,2025-05-15_14-16-21,00:11:16.470,00:11:20.150,3.68,childprompt,repeatprompt,
 P37,2025-05-15_14-32-11,00:05:41.119,00:05:44.779,3.66,childreaction2failure,lookingatPC,1,looks at PC
 P37,2025-05-15_14-32-11,00:05:41.119,00:05:44.779,3.66,childprompt,noprompt,1,no prompt
 P37,2025-05-15_14-32-11,00:05:44.779,00:05:49.234,4.455,childreaction2failure,confusion,1,confusion
+P37,2025-05-15_14-32-11,00:05:49.253,00:05:53.324,4.071,childreaction2failure,lookingatPC,1,looks at PC
 P37,2025-05-15_14-32-11,00:05:55.779,00:06:06.757,10.978,childreaction2failure,quitting,2,quitting
 P37,2025-05-15_14-32-11,00:05:55.779,00:06:06.757,10.978,childprompt,noprompt,2,no prompt
 P38,2025-05-15_14-42-10,00:07:46.440,00:07:48.040,1.6,childreaction2failure,lookingatPC,1,looks at PC
 P38,2025-05-15_14-42-10,00:07:46.440,00:07:48.040,1.6,childtone,interrogative,1,interrogative tone
-P38,2025-05-15_14-42-10,00:07:46.440,00:07:48.040,1.6,childprompt,newprompt,1,repeats prompt
+P38,2025-05-15_14-42-10,00:07:46.440,00:07:48.040,1.6,childprompt,newprompt,1,makes new prompt
 P38,2025-05-15_14-42-10,00:07:52.570,00:07:54.730,2.16,childreaction2failure,lookingatPC,2,looks at PC
 P38,2025-05-15_14-42-10,00:07:52.570,00:07:54.730,2.16,childtone,demanding,2,demanding tone
 P38,2025-05-15_14-42-10,00:07:52.570,00:07:54.730,2.16,childprompt,repeatprompt,2,repeats prompt
 P38,2025-05-15_14-42-10,00:07:57.670,00:07:59.060,1.39,childreaction2failure,try2look2researcher,3,looks for researcher
 P38,2025-05-15_14-42-10,00:07:57.670,00:07:59.060,1.39,childtone,interrogative,3,interrogative tone
-P38,2025-05-15_14-42-10,00:07:57.670,00:07:59.060,1.39,childprompt,newprompt,3,repeats prompt
+P38,2025-05-15_14-42-10,00:07:57.670,00:07:59.060,1.39,childprompt,newprompt,3,makes new prompt
+P38,2025-05-15_14-42-10,00:08:02.939,00:08:04.579,1.64,childprompt,newprompt,3,makes new prompt
 P4,2025-02-11_12-23-27,00:09:06.121,00:09:07.965,1.844,childreaction2failure,lookingatrobot,1,looks at robot
+P4,2025-02-11_12-23-27,00:09:08.018,00:09:08.990,0.972,childreaction2failure,try2look2researcher,1,looks for researcher
 P4,2025-02-11_12-23-27,00:09:08.018,00:09:08.990,0.972,childprompt,prompt2researcher,1,looks for researcher
-P4,2025-02-11_12-23-27,00:09:20.909,00:09:21.909,1,childreaction2failure,try2look2researcher,2,looks for researcher
-P4,2025-02-11_12-23-27,00:09:20.909,00:09:21.909,1,childprompt,noprompt,2,no prompt
+P4,2025-02-11_12-23-27,00:09:20.909,00:09:21.909,1.0,childreaction2failure,try2look2researcher,2,looks for researcher
+P4,2025-02-11_12-23-27,00:09:20.909,00:09:21.909,1.0,childprompt,noprompt,2,no prompt
 P41,2025-05-15_15-12-34,00:07:27.788,00:07:28.948,1.16,childreaction2failure,look2robot,1,looks at robot
-P41,2025-05-15_15-12-34,00:07:27.788,00:07:28.948,1.16,childprompt,newprompt,1,repeats prompt
+P41,2025-05-15_15-12-34,00:07:27.788,00:07:28.948,1.16,childprompt,newprompt,1,makes new prompt
 P41,2025-05-15_15-12-34,00:07:31.831,00:07:36.271,4.44,childreaction2failure,try2look2researcher,2,looks for researcher
 P41,2025-05-15_15-12-34,00:07:31.831,00:07:36.271,4.44,childprompt,noprompt,2,no prompt
 P41,2025-05-15_15-12-34,00:07:38.246,00:07:40.756,2.51,childreaction2failure,try2look2researcher,3,looks for researcher
@@ -291,16 +303,23 @@ P49,2025-05-22_15-26-28,00:05:05.860,00:05:07.880,2.02,childprompt,repeatprompt,
 P5,2025-02-13_09-33-33,00:07:15.010,00:07:17.705,2.695,childprompt,fillerprompt,1,filler words
 P5,2025-02-13_09-33-33,00:07:17.705,00:07:18.145,0.44,childprompt,pf,1,'please'
 P5,2025-02-13_09-33-33,00:07:21.335,00:07:27.785,6.45,childreaction2failure,frustration,2,frustration
-P5,2025-02-13_09-33-33,00:07:23.362,00:07:24.362,1,childprompt,noprompt,2,no prompt
+P5,2025-02-13_09-33-33,00:07:23.362,00:07:24.362,1.0,childprompt,noprompt,2,no prompt
 P5,2025-02-13_09-33-33,00:07:34.515,00:07:35.205,0.69,childreaction2failure,lookingrobot,3,looks at robot
 P5,2025-02-13_09-33-33,00:07:34.555,00:07:37.885,3.33,childprompt,longerprompt,3,more specific/longer prompt
+P5,2025-02-13_09-33-33,00:07:35.205,00:07:40.105,4.9,childreaction2failure,frustration,3,frustration
+P5,2025-02-13_09-33-33,00:07:40.530,00:07:45.000,4.47,childreaction2failure,frustration,3,frustration
 P5,2025-02-13_09-33-33,00:07:40.530,00:07:41.690,1.16,childprompt,fillerprompt,3,filler words
 P5,2025-02-13_09-33-33,00:07:45.015,00:07:49.620,4.605,childreaction2failure,frustration,3,frustration
-P5,2025-02-13_09-33-33,00:07:53.547,00:07:54.547,1,childprompt,noprompt,3,no prompt
+P5,2025-02-13_09-33-33,00:07:49.620,00:07:52.190,2.57,childreaction2failure,lookingrobot,3,looks at robot
+P5,2025-02-13_09-33-33,00:07:53.547,00:07:54.547,1.0,childprompt,noprompt,3,no prompt
 P5,2025-02-13_09-33-33,00:08:10.032,00:08:11.185,1.153,childreaction2failure,humor,3,amusement/humor
 P5,2025-02-13_09-33-33,00:08:29.193,00:08:30.393,1.2,childreaction2failure,closer2robot,3,moves closer to robot
-P5,2025-02-13_09-33-33,00:08:49.805,00:08:50.805,1,childreaction2failure,confusion,3,confusion
-P5,2025-02-13_09-33-33,00:08:49.805,00:08:50.805,1,childtone,interrogative,3,interrogative tone
+P5,2025-02-13_09-33-33,00:08:30.608,00:08:33.678,3.07,childreaction2failure,confusion,3,confusion
+P5,2025-02-13_09-33-33,00:08:38.903,00:08:40.203,1.3,childreaction2failure,confusion,3,confusion
+P5,2025-02-13_09-33-33,00:08:44.378,00:08:45.758,1.38,childreaction2failure,confusion,3,confusion
+P5,2025-02-13_09-33-33,00:08:44.378,00:08:45.758,1.38,childtone,interrogative,3,interrogative tone
+P5,2025-02-13_09-33-33,00:08:49.805,00:08:50.805,1.0,childreaction2failure,confusion,3,confusion
+P5,2025-02-13_09-33-33,00:08:49.805,00:08:50.805,1.0,childtone,interrogative,3,interrogative tone
 P50,2025-06-05_14-10-56,00:07:00.159,00:07:01.959,1.8,childreaction2failure,try2look2researcher,1,looks for researcher
 P50,2025-06-05_14-10-56,00:07:00.159,00:07:01.959,1.8,childtone,filler,1,filler words
 P50,2025-06-05_14-10-56,00:07:00.159,00:07:01.959,1.8,childprompt,longerprompt,1,more specific/longer prompt
@@ -308,16 +327,16 @@ P50,2025-06-05_14-10-56,00:07:07.763,00:07:12.333,4.57,childreaction2failure,loo
 P50,2025-06-05_14-10-56,00:07:07.763,00:07:12.333,4.57,childprompt,noprompt,2,no prompt
 P50,2025-06-05_14-10-56,00:07:28.282,00:07:30.602,2.32,childreaction2failure,confusion,3,confusion
 P50,2025-06-05_14-10-56,00:07:28.282,00:07:30.602,2.32,childprompt,noprompt,3,no prompt
-P51,2025-06-05_14-20-53,00:04:48.970,00:04:49.970,1,childreaction2failure,look2robot,1,looks at robot
-P51,2025-06-05_14-20-53,00:04:48.970,00:04:49.970,1,childtone,slower,1,slower speech
-P51,2025-06-05_14-20-53,00:04:48.970,00:04:49.970,1,childprompt,repeatprompt,1,repeats prompt
+P51,2025-06-05_14-20-53,00:04:48.970,00:04:49.970,1.0,childreaction2failure,look2robot,1,looks at robot
+P51,2025-06-05_14-20-53,00:04:48.970,00:04:49.970,1.0,childtone,slower,1,slower speech
+P51,2025-06-05_14-20-53,00:04:48.970,00:04:49.970,1.0,childprompt,repeatprompt,1,repeats prompt
 P51,2025-06-05_14-20-53,00:04:56.700,00:04:58.245,1.545,childreaction2failure,movecloser2robot,2,moves closer to robot
 P51,2025-06-05_14-20-53,00:04:56.700,00:04:58.280,1.58,childtone,demanding,2,demanding tone
 P51,2025-06-05_14-20-53,00:04:56.700,00:04:58.280,1.58,childprompt,repeatprompt,2,repeats prompt
 P51,2025-06-05_14-20-53,00:04:58.245,00:04:58.925,0.68,childreaction2failure,humor,2,amusement/humor
-P51,2025-06-05_14-20-53,00:05:08.590,00:05:10.590,2,childreaction2failure,movecloser2robot,3,moves closer to robot
-P51,2025-06-05_14-20-53,00:05:08.590,00:05:10.590,2,childtone,slower,3,slower speech
-P51,2025-06-05_14-20-53,00:05:08.590,00:05:10.590,2,childprompt,repeatprompt,3,repeats prompt
+P51,2025-06-05_14-20-53,00:05:08.590,00:05:10.590,2.0,childreaction2failure,movecloser2robot,3,moves closer to robot
+P51,2025-06-05_14-20-53,00:05:08.590,00:05:10.590,2.0,childtone,slower,3,slower speech
+P51,2025-06-05_14-20-53,00:05:08.590,00:05:10.590,2.0,childprompt,repeatprompt,3,repeats prompt
 P52,2025-06-05_14-28-47,00:06:17.030,00:06:18.693,1.663,childreaction2failure,lookingatPC,1,looks at PC
 P52,2025-06-05_14-28-47,00:06:17.030,00:06:18.710,1.68,childtone,filler,1,filler words
 P52,2025-06-05_14-28-47,00:06:17.030,00:06:18.710,1.68,childprompt,longerprompt,1,more specific/longer prompt
@@ -376,7 +395,7 @@ P58,2025-06-05_15-24-35,00:05:23.953,00:05:25.053,1.1,childtone,demanding,1,dema
 P58,2025-06-05_15-24-35,00:05:23.953,00:05:25.053,1.1,childprompt,repeatprompt,1,repeats prompt
 P58,2025-06-05_15-24-35,00:05:37.118,00:05:38.638,1.52,childreaction2failure,frustration,3,frustration
 P58,2025-06-05_15-24-35,00:05:37.118,00:05:38.638,1.52,childtone,interrogative,3,interrogative tone
-P58,2025-06-05_15-24-35,00:05:37.118,00:05:38.638,1.52,childprompt,newprompt,3,repeats prompt
+P58,2025-06-05_15-24-35,00:05:37.118,00:05:38.638,1.52,childprompt,newprompt,3,makes new prompt
 P59,2025-06-05_15-32-57,00:06:05.967,00:06:07.327,1.36,childreaction2failure,humor,1,amusement/humor
 P59,2025-06-05_15-32-57,00:06:05.967,00:06:07.327,1.36,childtone,demanding,1,demanding tone
 P59,2025-06-05_15-32-57,00:06:05.967,00:06:07.327,1.36,childprompt,repeatprompt,1,repeats prompt
@@ -391,13 +410,17 @@ P6,2025-02-13_09-46-06,00:07:15.750,00:07:17.050,1.3,childreaction2failure,close
 P7,2025-02-13_09-56-25,00:06:34.545,00:06:35.125,0.58,childreaction2failure,confusion,1,confusion
 P7,2025-02-13_09-56-25,00:06:34.545,00:06:35.125,0.58,childprompt,prompt2researcher,1,looks for researcher
 P7,2025-02-13_09-56-25,00:06:39.155,00:06:41.175,2.02,childprompt,longerprompt,2,more specific/longer prompt
+P7,2025-02-13_09-56-25,00:06:45.860,00:06:46.920,1.06,childreaction2failure,try2look2researcher,3,looks for researcher
 P7,2025-02-13_09-56-25,00:06:45.860,00:06:46.920,1.06,childprompt,prompt2researcher,3,looks for researcher
 P8,2025-02-13_10-06-10,00:08:26.575,00:08:33.125,6.55,childreaction2failure,confusion,1,confusion
 P8,2025-02-13_10-06-10,00:08:26.575,00:08:33.125,6.55,childprompt,noprompt,1,no prompt
 P8,2025-02-13_10-06-10,00:08:35.692,00:08:36.342,0.65,childprompt,longerprompt,1,more specific/longer prompt
 P9,2025-02-13_10-17-34,00:07:04.065,00:07:08.195,4.13,childreaction2failure,confusion,1,confusion
 P9,2025-02-13_10-17-34,00:07:04.065,00:07:08.195,4.13,childprompt,noprompt,1,no prompt
+P9,2025-02-13_10-17-34,00:07:12.720,00:07:14.210,1.49,childreaction2failure,moves,1,changes position
+P9,2025-02-13_10-17-34,00:07:12.720,00:07:14.210,1.49,childprompt,noprompt,1,no prompt
 P9,2025-02-13_10-17-34,00:07:12.720,00:07:14.210,1.49,childreaction2failure,moves,2,changes position
 P9,2025-02-13_10-17-34,00:07:12.720,00:07:14.210,1.49,childprompt,noprompt,2,no prompt
 P9,2025-02-13_10-17-34,00:07:17.764,00:07:18.994,1.23,childreaction2failure,confusion,2,confusion
+P9,2025-02-13_10-17-34,00:07:17.764,00:07:18.994,1.23,childprompt,noprompt,2,no prompt
 P9,2025-02-13_10-17-34,00:07:23.710,00:07:26.520,2.81,childprompt,noprompt,3,no prompt

@@ -1,0 +1,139 @@
+participant_id,error,time_to_reaction,code,subcode_readable
+P10,1,1.544999999999959,interrogative,interrogative tone
+P10,2,2.4350000000000023,frustration,frustration
+P10,3,4.574999999999989,simplerprompt,simpler prompt
+P11,1,3.0749999999999886,interrogative,interrogative tone
+P11,2,1.25,noprompt,no prompt
+P11,3,7.894999999999982,frustration,frustration
+P12,1,0.7549999999999955,moves,changes position
+P12,2,1.3550000000000182,quitting,quitting
+P12,3,2.1100000000000136,confusion,confusion
+P13,1,2.1400000000001,confusion,confusion
+P13,2,5.449999999999932,frustration,frustration
+P13,3,6.329999999999927,frustration,frustration
+P14,1,2.4850000000000136,noprompt,no prompt
+P14,2,1.8950000000000387,try2look2researcher,looks for researcher
+P14,3,1.3949999999999818,try2look2researcher,looks for researcher
+P16,1,2.1549999999999727,interrogative,interrogative tone
+P16,2,1.5149999999999864,try2look2researcher,looks for researcher
+P16,3,3.0499999999999545,try2look2researcher,looks for researcher
+P19,1,6.139999999999986,confusion,confusion
+P19,2,2.980000000000018,confusion,confusion
+P19,3,3.355000000000018,slower,slower speech
+P2,2,1.525000000000034,noprompt,no prompt
+P2,3,6.680000000000007,moves,changes position
+P20,1,2.3349999999999795,standsup,stands up
+P20,2,2.704999999999984,moves,changes position
+P20,3,11.920000000000016,simplerprompt,simpler prompt
+P21,1,1.7099999999999795,noprompt,no prompt
+P21,2,2.074999999999932,try2look2researcher,looks for researcher
+P21,3,1.7749999999999773,noprompt,no prompt
+P22,1,2.214999999999975,demanding,demanding tone
+P22,2,2.0949999999999704,confusion,confusion
+P22,3,12.385000000000048,simplerprompt,simpler prompt
+P23,1,3.240000000000009,slower,slower speech
+P23,2,8.135000000000048,simplerprompt,simpler prompt
+P23,3,2.2549999999999955,slower,slower speech
+P24,1,1.9399999999999977,swappingterms,swaps terms
+P24,2,1.8900000000000432,slower,slower speech
+P24,3,2.394999999999982,quitting,quitting
+P25,1,0.9849999999999568,slower,slower speech
+P25,2,1.7450000000000045,slower,slower speech
+P25,3,2.2649999999999864,demanding,demanding tone
+P26,1,2.1299999999999955,slower,slower speech
+P26,2,1.7699999999999818,frustration,frustration
+P26,3,2.7549999999999955,frustration,frustration
+P27,1,2.1499999999999773,movecloser2robot,moves closer to robot
+P28,1,2.355000000000018,repeatprompt,repeats prompt
+P28,2,1.9149999999999636,leaveroom,leaves room
+P28,3,2.759999999999991,noprompt,no prompt
+P29,1,1.954999999999984,longerprompt,more specific/longer prompt
+P29,2,2.5049999999999955,simplerprompt,simpler prompt
+P29,3,2.150000000000034,demanding,demanding tone
+P3,1,2.1440000000000055,humor,amusement/humor
+P3,2,3.562999999999988,demanding,demanding tone
+P3,3,4.644999999999982,filler,filler words
+P30,1,1.9149999999999636,movecloser2robot,moves closer to robot
+P30,2,2.7199999999999136,simplerprompt,simpler prompt
+P30,3,2.044999999999959,humor,amusement/humor
+P32,1,4.214999999999975,movecloser2robot,moves closer to robot
+P32,2,2.5849999999999795,movecloser2robot,moves closer to robot
+P32,3,1.8100000000000023,frustration,frustration
+P33,1,1.3350000000000364,movecloser2robot,moves closer to robot
+P33,2,2.5149999999999864,movecloser2robot,moves closer to robot
+P33,3,6.560000000000002,movecloser2robot,moves closer to robot
+P35,1,2.669999999999959,slower,slower speech
+P35,2,2.4499999999999886,try2look2researcher,looks for researcher
+P35,3,3.715000000000032,leaveroom,leaves room
+P36,1,8.539999999999964,demanding,demanding tone
+P36,2,2.7100000000000364,noprompt,no prompt
+P36,3,2.19399999999996,confusion,confusion
+P37,1,2.230000000000018,noprompt,no prompt
+P37,2,2.454999999999984,quitting,quitting
+P38,1,6.779999999999973,interrogative,interrogative tone
+P38,2,2.534999999999968,demanding,demanding tone
+P38,3,1.884999999999991,try2look2researcher,looks for researcher
+P4,1,3.521000000000072,prompt2researcher,looks for researcher
+P4,2,9.349000000000046,try2look2researcher,looks for researcher
+P41,1,4.04200000000003,newprompt,repeats prompt
+P41,2,2.1020000000000323,try2look2researcher,looks for researcher
+P41,3,1.964999999999975,try2look2researcher,looks for researcher
+P42,1,2.2200000000000273,confusion,confusion
+P42,2,2.1999999999999886,try2look2researcher,looks for researcher
+P42,3,2.490000000000009,noprompt,no prompt
+P43,1,2.0100000000000477,movecloser2robot,moves closer to robot
+P43,2,3.0640000000000214,try2look2researcher,looks for researcher
+P43,3,1.8899999999999864,filler,filler words
+P44,1,4.845000000000027,slower,slower speech
+P44,2,8.180000000000007,noprompt,no prompt
+P44,3,6.009999999999991,quitting,quitting
+P46,1,2.339999999999975,slower,slower speech
+P46,2,5.677999999999997,try2look2researcher,looks for researcher
+P46,3,3.326999999999998,slower,slower speech
+P47,1,3.194000000000017,demanding,demanding tone
+P48,1,5.968999999999994,slower,slower speech
+P48,2,13.557999999999993,repeatprompt,repeats prompt
+P48,3,9.750999999999976,noprompt,no prompt
+P49,1,8.55600000000004,repeatprompt,repeats prompt
+P49,2,4.048000000000002,demanding,demanding tone
+P49,3,6.968999999999994,demanding,demanding tone
+P5,1,4.009999999999991,fillerprompt,filler words
+P5,2,1.8050000000000068,frustration,frustration
+P5,3,4.555000000000007,longerprompt,more specific/longer prompt
+P50,1,3.1689999999999827,try2look2researcher,looks for researcher
+P50,2,4.3589999999999804,noprompt,no prompt
+P50,3,9.770999999999958,confusion,confusion
+P51,1,5.240000000000009,slower,slower speech
+P51,2,5.964999999999975,movecloser2robot,moves closer to robot
+P51,3,9.229999999999961,movecloser2robot,moves closer to robot
+P52,1,2.3659999999999854,filler,filler words
+P52,2,12.776999999999987,humor,amusement/humor
+P52,3,9.076000000000022,humor,amusement/humor
+P53,1,2.759999999999991,demanding,demanding tone
+P53,2,4.842999999999961,demanding,demanding tone
+P53,3,3.055999999999983,humor,amusement/humor
+P54,1,8.09699999999998,demanding,demanding tone
+P54,2,8.703000000000031,noprompt,no prompt
+P54,3,3.58299999999997,noprompt,no prompt
+P55,1,5.908999999999992,filler,filler words
+P55,2,3.541999999999973,confusion,confusion
+P55,3,1.9139999999999873,try2look2researcher,looks for researcher
+P56,1,2.5889999999999986,demanding,demanding tone
+P56,2,3.149000000000001,frustration,frustration
+P56,3,2.2970000000000255,frustration,frustration
+P57,1,2.0120000000000005,demanding,demanding tone
+P57,2,2.5609999999999786,demanding,demanding tone
+P57,3,4.302000000000021,demanding,demanding tone
+P58,1,2.951000000000022,try2look2researcher,looks for researcher
+P58,3,1.9010000000000105,frustration,frustration
+P59,1,2.0399999999999636,humor,amusement/humor
+P6,1,3.5849999999999795,confusion,confusion
+P6,2,8.0,frustration,frustration
+P6,3,2.329999999999984,frustration,frustration
+P7,1,10.439999999999998,confusion,confusion
+P7,2,3.044999999999959,longerprompt,more specific/longer prompt
+P7,3,3.920000000000016,prompt2researcher,looks for researcher
+P8,1,1.572999999999979,confusion,confusion
+P9,1,1.8149999999999977,confusion,confusion
+P9,2,4.0190000000000055,confusion,confusion
+P9,3,1.4039999999999964,noprompt,no prompt

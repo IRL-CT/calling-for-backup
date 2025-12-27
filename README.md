@@ -2,41 +2,19 @@
 
 **HRI 2026 | Edinburgh, Scotland, UK**
 
-Maria Teresa Parreira*¹ · Isabel Neto*² · Filipa Rocha³ · Wendy Ju¹⁴
+↓[Maria Teresa Parreira](https://www.mariateresaparreira.com/)* ¹ · [Isabel Neto](https://isabelcaniconeto.github.io/site/)* ² · [Filipa Rocha](https://web.tecnico.ulisboa.pt/filipa.rocha/)³ · [Wendy Ju](https://www.wendyju.com/)¹⁴
 
-¹Cornell University · ²Universidade de Lisboa · ³Instituto Superior Técnico · ⁴Cornell Tech
+¹Cornell University · ²Faculdade de Ciências · ³Instituto Superior Técnico · ⁴Cornell Tech
 
 *Equal contribution
 
 ---
 
 ## 🌐 Project Website
+[**View Project Website**](https://irl-ct.github.io/calling-for-backup/)
 
-**[https://irl-ct.github.io/calling-for-backup/](https://irl-ct.github.io/calling-for-backup/)**
+![Calling for Backup - Main Video Vignette](docs/figures/badchild_videofigure.mp4)
 
-## Abstract
-
-How do children respond to repeated robot errors? While prior research has examined adult reactions to successive robot errors, children's responses remain largely unexplored. In this study, we explore children's reactions to robot **social errors** and **performance errors**. For the latter, this study reproduces the successive robot failure paradigm of Liu et al. with child participants (N=59, ages 8-10) to examine how young users respond to repeated robot conversational errors. Participants interacted with a robot that failed to understand their prompts three times in succession, with their behavioral responses video-recorded and analyzed.
-
-We found both **similarities** and **differences** compared to adult responses from the original study. Like adults, children adjusted their prompts, modified their verbal tone, and exhibited increasingly emotional non-verbal responses throughout successive errors. However, children demonstrated more **disengagement behaviors**, including temporarily ignoring the robot or actively seeking an adult. Errors did not affect participants' perception of the robot, suggesting more flexible conversational expectations in children. These findings inform the design of more effective and developmentally appropriate human-robot interaction systems for young users.
-
-## Research Questions
-
-**Central Question:** How do children perceive and react to repeated robot error?
-
-This study investigates two dimensions of robot failures:
-
-1. **Social Error:** Inappropriate interruption during conversation - how do children respond when the robot interrupts them before they finish answering?
-
-2. **Performance Error:** Repeated failure to understand user commands - how do children adapt when the robot fails to understand their request to "call the researcher" three successive times?
-
-## Study Design
-
-### Participants
-- **N = 59** children (32 boys, 27 girls)
-- **Ages:** 8-10 years old
-- Recruited through local school network in Portugal
-- Conducted under Cornell University IRB exempt protocol #IRB0010006
 
 ### Experimental Conditions
 - **Interruption Condition (n=30):** Robot interrupts child before they finish answering
@@ -162,11 +140,8 @@ successive error · robot error · reproducibility · child-robot interaction ·
 @inproceedings{parreira2026calling,
   title={Calling for Backup: How Children Navigate Successive Robot Communication Failures},
   author={Parreira, Maria Teresa and Neto, Isabel and Rocha, Filipa and Ju, Wendy},
-  booktitle={Proceedings of the 2026 ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  booktitle={TBD},
   year={2026},
-  location={Edinburgh, Scotland, UK},
-  publisher={ACM}
-}
 ```
 
 ## Related Work

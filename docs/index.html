@@ -20,13 +20,16 @@
 
         <!-- Authors -->
         <p class="authors">
-            <a href="#">Maria Teresa Parreira</a>*,
-            <a href="#">Isabel Neto</a>*,
-            <a href="#">Filipa Rocha</a>,
-            <a href="#">Wendy Ju</a>
+            <a href="https://www.mariateresaparreira.com/">Maria Teresa Parreira</a>*<sup>1</sup>,
+            <a href="https://isabelcaniconeto.github.io/site/">Isabel Neto</a>*<sup>2</sup>,
+            <a href="https://web.tecnico.ulisboa.pt/filipa.rocha/">Filipa Rocha</a><sup>3</sup>,
+            <a href="https://www.wendyju.com/">Wendy Ju</a><sup>1,4</sup>
         </p>
-        <p class="affiliation">*Equal contribution</p>
-        <p class="venue">HRI 2026</p>
+        <p class="affiliation">
+            <sup>1</sup>Cornell University · <sup>2</sup>Faculdade de Ciências · <sup>3</sup>Instituto Superior Técnico · <sup>4</sup>Cornell Tech<br>
+            *Equal contribution
+        </p>
+        <p class="venue">TBD</p>
 
         <!-- Main Video Figure -->
         <div class="figure">
@@ -34,8 +37,41 @@
                 <source src="figures/badchild_videofigure.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <p class="caption"><em>Reactions to successive robot error. After providing instructions to the child, the robot fails to understand their prompt three times. In this vignette, participant reacts to failure by moving closer to robot and using verbal adaptations (demanding tone, slower cadence). After the third error, child exhibits clear signs of frustration and humor.</em></p>
+            <p class="caption"><em>Reactions to successive robot error. After providing instructions to the child, the robot fails to understand their prompt three times.</em></p>
         </div>
+
+        <!-- Design Insights -->
+        <h2>Design Insights for Child-Robot Interaction</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Observed Behavior</th>
+                <th>Design Implication</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Children's perception remained stable despite successive errors</td>
+                <td><strong>Design for Error Tolerance:</strong> Focus on managing errors gracefully rather than aggressively eliminating them. Allow minor errors without elaborate apologies.</td>
+            </tr>
+            <tr>
+                <td>Children frequently call for adult help after repeated failures</td>
+                <td><strong>Facilitate External Help-Seeking:</strong> Recognize requests for human assistance as valid and implement graceful handoff mechanisms.</td>
+            </tr>
+            <tr>
+                <td>Children use sophisticated verbal strategies (repetition, specificity, politeness)</td>
+                <td><strong>Implement Multi-Layered Conversational Repair:</strong> Design systems sensitive to prompt reformulation and increase error confidence based on politeness markers.</td>
+            </tr>
+            <tr>
+                <td>Children exhibit dynamic engagement patterns</td>
+                <td><strong>Employ Non-Intrusive Error Recovery:</strong> Recognize disengagement as active problem-solving. Avoid intrusive re-engagement; monitor passively.</td>
+            </tr>
+            <tr>
+                <td>Response latencies increase with successive errors</td>
+                <td><strong>Utilize Timing as Failure Metric:</strong> Integrate response latency analysis as real-time measure of cognitive load and distress.</td>
+            </tr>
+            </tbody>
+        </table>
 
         <!-- Abstract -->
         <h2>Abstract</h2>
@@ -68,13 +104,10 @@
 
         <div class="figure-row">
             <div class="figure-half">
-                <img src="figures/setup_cropped.png" alt="Experimental setup">
-            </div>
-            <div class="figure-half">
-                <img src="figures/experimental_setup.png" alt="Robot Simon">
+            <img src="figures/setup_cropped.png" alt="Experimental setup">
             </div>
         </div>
-        <p class="caption"><em>Left: Experimental setup with robot Simon (Nodbot). Right: Study protocol diagram.</em></p>
+        <p class="caption"><em>Experimental setup (A) and study protocol. After a short introduction to robot Simon, children watch a series of videos on the laptop. Following this, they fill out a small survey evaluating different dimensions of robot perception. Once they finish, Simon asks them some questions: depending on the condition, it will interrupt their answers (social error) or not. After this, Simon fails to understand the participants’ request to call the researcher (performance error). After 3 successive errors, the researcher is called back into the room. Before ending the session, the child repeats the robot perception survey.</em></p>
 
         <p><strong>Participants:</strong> 59 children, ages 8-10 (32 boys, 27 girls), recruited through local school network in Portugal.</p>
 
@@ -92,16 +125,28 @@
 
         <div class="figure-row">
             <div class="figure-third">
-                <img src="figures/collage_p14.png" alt="Participant 14">
-                <p class="caption"><em>Persistence and verbal adaptation</em></p>
+            <img src="figures/vignette_p32.png" alt="Participant 32">
+            <p class="caption"><em>Reactions to successive robot error. After providing instructions to the child, the robot fails to understand their prompt three times. In this vignette, participant reacts to failure by moving closer to robot and using verbal adaptations (demanding tone, slower cadence). After the third error, child exhibits clear signs of frustration and humor, before repeating the command. After this, the researcher enters the room.</em></p>
             </div>
+        </div>
+        <div class="figure-row">
             <div class="figure-third">
-                <img src="figures/collage_p30.png" alt="Participant 30">
-                <p class="caption"><em>Help-seeking: looking for researcher</em></p>
+            <img src="figures/vignette_p5.png" alt="Participant 5">
+            <p class="caption"><em>Reactions to social error (interruption). As child starts answering the first question asked by the robot, he gets interrupted. The child does not exhibit external cues of acknowledging this as a socially erroneous behavior. Instead, he thinks for a brief moment before answering the second question.</em></p>
             </div>
+        </div>
+        <div class="figure-row">
             <div class="figure-third">
-                <img src="figures/collage_p5.png" alt="Participant 5">
-                <p class="caption"><em>Emotional progression: confusion to frustration</em></p>
+            <img src="figures/vignette_p30.png" alt="Participant 30">
+            <p class="caption"><em>Responses to successive performance error. Child responds to robot error by repeating the command in a longer
+prompt, moving closer to the robot, with displays of frustration after the third error, as well as looking for the researcher.
+After a longer response time, the child finally repeats the command, resorting to politeness and smiling humorously.</em></p>
+            </div>
+        </div>
+        <div class="figure-row">
+            <div class="figure-third">
+            <img src="figures/vignette_p14.png" alt="Participant 14">
+            <p class="caption"><em>Absence of verbal engagement. In this vignette, the child ignores the robot's instructions and immediately looks for the researcher. Through repeated error, child exhibits confusion (0:14), amusement (0:22) and continues looking back or looking at the screen.</em></p>
             </div>
         </div>
 
@@ -157,6 +202,36 @@
             This suggests children have more flexible conversational expectations with robots compared to adults.
         </p>
 
+        <!-- Data Visualizations Carousel -->
+        <h2>Data Visualizations</h2>
+        <div class="carousel-container">
+            <div class="carousel-wrapper" id="carouselWrapper">
+                <div class="carousel-slide">
+                    <img src="figures/percentage_annotations_stacked.png" alt="Distribution of behavioral responses">
+                    <p class="caption"><em>Distribution of children's behavioral responses across successive robot errors. Shows the relative frequency of different reaction types.</em></p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="figures/emotional_reactions_annotations_histogram.png" alt="Emotional reactions">
+                    <p class="caption"><em>Frequency of emotional reactions across successive robot errors. Confusion peaks after Error II, while frustration progressively increases and becomes dominant by Error III. Amusement/humor remains relatively consistent across all errors.</em></p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="figures/reaction_times_by_error_boxplot_all.png" alt="Response latencies">
+                    <p class="caption"><em>Response latencies across successive robot errors. Response times increase and become more variable with successive errors, with Error III showing the longest delays and greatest variability.</em></p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="figures/engagement_types_by_error.png" alt="Engagement patterns">
+                    <p class="caption"><em>Children's engagement patterns across successive robot errors. Blue bars represent continued robot engagement, green bars show disengagement from robot interaction, pink and yellow show complex engagement patterns. Notable shift from predominantly engaging behavior in Error I to mixed patterns in Errors II and III.</em></p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="figures/disengagement_annotations_histogram.png" alt="Disengagement behaviors">
+                    <p class="caption"><em>Frequency of disengagement behaviors across successive robot errors. Shows progressive increase in disengagement strategies, with "no prompt" and "looks for researcher" being most prevalent by Error III. Other behaviors include standing up, leaving room, and complete interaction abandonment.</em></p>
+                </div>
+            </div>
+            <button class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <button class="carousel-button next" onclick="moveCarousel(1)">&#10095;</button>
+            <div class="carousel-indicators" id="carouselIndicators"></div>
+        </div>
+
         <!-- Main Takeaways -->
         <h2>Main Takeaways</h2>
         <ol>
@@ -169,29 +244,15 @@
             <li><strong>Social errors go unnoticed:</strong> Most children ignored robot interruptions, suggesting either developmental differences in social norm sensitivity or more flexible conversational expectations with non-human agents.</li>
         </ol>
 
-        <!-- Design Implications -->
-        <h2>Implications for Child-Robot Interaction Design</h2>
-        <ul>
-            <li><strong>Design for error tolerance:</strong> Leverage children's flexible expectations by managing errors gracefully rather than aggressively eliminating them</li>
-
-            <li><strong>Facilitate external help-seeking:</strong> Recognize requests for human assistance as valid adaptive strategies and implement graceful handoff mechanisms</li>
-
-            <li><strong>Implement multi-layered conversational repair:</strong> Design systems sensitive to prompt reformulation (cadence, tone, complexity) and politeness markers</li>
-
-            <li><strong>Employ non-intrusive error recovery:</strong> Allow natural disengagement/re-engagement cycles; avoid immediate intrusive re-engagement</li>
-
-            <li><strong>Utilize timing as failure metric:</strong> Monitor response latencies as real-time indicators of cognitive load and distress</li>
-        </ul>
-
+       
         <!-- Citation -->
         <h2>Citation</h2>
         <div class="citation">
 <pre>@inproceedings{parreira2026calling,
   title={Calling for Backup: How Children Navigate Successive Robot Communication Failures},
   author={Parreira, Maria Teresa and Neto, Isabel and Rocha, Filipa and Ju, Wendy},
-  booktitle={Proceedings of the 2026 ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  booktitle={TBD},
   year={2026},
-  location={Edinburgh, Scotland, UK}
 }</pre>
         </div>
 
@@ -200,5 +261,41 @@
             <p>© 2026 Authors | <a href="https://github.com/IRL-CT/calling-for-backup">GitHub Repository</a></p>
         </div>
     </div>
+
+    <script>
+        // Carousel functionality
+        let currentSlide = 0;
+        const wrapper = document.getElementById('carouselWrapper');
+        const slides = document.querySelectorAll('.carousel-slide');
+        const indicatorsContainer = document.getElementById('carouselIndicators');
+
+        // Create indicators
+        slides.forEach((_, index) => {
+            const indicator = document.createElement('span');
+            indicator.className = 'carousel-indicator';
+            if (index === 0) indicator.classList.add('active');
+            indicator.onclick = () => goToSlide(index);
+            indicatorsContainer.appendChild(indicator);
+        });
+
+        function moveCarousel(direction) {
+            currentSlide += direction;
+            if (currentSlide < 0) currentSlide = slides.length - 1;
+            if (currentSlide >= slides.length) currentSlide = 0;
+            updateCarousel();
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            updateCarousel();
+        }
+
+        function updateCarousel() {
+            wrapper.style.transform = `translateX(-${currentSlide * 100}%)`;
+            document.querySelectorAll('.carousel-indicator').forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === currentSlide);
+            });
+        }
+    </script>
 </body>
 </html>

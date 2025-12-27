@@ -37,6 +37,15 @@
 
 **Session duration:** ~7 minutes
 
+## Research Question
+
+**How do children perceive and react to repeated robot error?**
+
+To investigate this question, we examine children's responses to two types of robot failures:
+
+- **Social Error (Interruption):** Robot inappropriately interrupts the child during conversation, violating social norms
+- **Performance Error (Successive Failure):** Robot fails to understand the child's request to "call the researcher" three successive times
+
 ## Key Findings
 
 ### Similarities with Adult Responses

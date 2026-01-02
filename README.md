@@ -2,9 +2,9 @@
 
 **HRI 2026 | Edinburgh, Scotland, UK**
 
-↓[Maria Teresa Parreira](https://www.mariateresaparreira.com/)* ¹ · [Isabel Neto](https://isabelcaniconeto.github.io/site/)* ² · [Filipa Rocha](https://web.tecnico.ulisboa.pt/filipa.rocha/)³ · [Wendy Ju](https://www.wendyju.com/)¹⁴
+↓[Maria Teresa Parreira](https://www.mariateresaparreira.com/)* ¹ · [Isabel Neto](https://isabelcaniconeto.github.io/site/)* ² · [Filipa Rocha](https://web.tecnico.ulisboa.pt/filipa.rocha/)²³ · [Wendy Ju](https://www.wendyju.com/)¹⁴
 
-¹Cornell University · ²Faculdade de Ciências · ³Instituto Superior Técnico · ⁴Cornell Tech
+¹Cornell University · ²Lasige, Faculdade de Ciências · ³ITI/LarSys, Universidade de Lisboa · ⁴Cornell Tech
 
 *Equal contribution
 

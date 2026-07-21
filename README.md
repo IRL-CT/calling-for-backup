@@ -1,10 +1,10 @@
 # Calling for Backup: How Children Navigate Successive Robot Communication Failures
 
-**HRI 2026 | Edinburgh, Scotland, UK**
 
-↓[Maria Teresa Parreira](https://www.mariateresaparreira.com/)* ¹ · [Isabel Neto](https://isabelcaniconeto.github.io/site/)* ² · [Filipa Rocha](https://web.tecnico.ulisboa.pt/filipa.rocha/)²³ · [Wendy Ju](https://www.wendyju.com/)¹⁴
 
-¹Cornell University · ²Lasige, Faculdade de Ciências · ³ITI/LarSys, Universidade de Lisboa · ⁴Cornell Tech
+[Maria Teresa Parreira](https://www.mariateresaparreira.com/)* ¹ · [Isabel Neto](https://isabelcaniconeto.github.io/site/)* ² · [Filipa Rocha](https://web.tecnico.ulisboa.pt/filipa.rocha/)²³ · [Wendy Ju](https://www.wendyju.com/)¹
+
+¹Cornell University · ²Lasige, Faculdade de Ciências · ³ITI/LarSys, Universidade de Lisboa 
 
 *Equal contribution
 
